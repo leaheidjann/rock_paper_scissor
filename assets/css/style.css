@@ -1,0 +1,178 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+
+
+/*general*/
+* {
+    font-family: 'Lato';
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+
+
+/*header*/
+h1 {
+    color: grey;
+    margin: 3% 0;
+    font-weight: lighter;
+    font-size: 2.5rem;
+}
+
+
+
+
+/*main general*/
+main {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    padding: 3% 0;
+}
+
+
+
+
+/*select number of rounds*/
+.div-rounds, .div-players {
+    border: 2px solid white;
+    border-radius: 0.2rem;
+    width: 30%;
+    margin: 3% auto; /* so zentriert man das ganze div*/
+    padding-bottom: 3%;
+}
+
+.div-rounds p {
+    margin: 3% 0 15% 0;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+    margin-bottom: 5%;
+}
+
+form div {
+    margin-bottom: 15%;
+    text-align: left;
+    padding-left: 20%
+}
+
+input {
+    margin-right: 5%;
+} 
+
+
+
+
+/*score user & comp*/
+.div-players {
+    position: relative;
+    padding: 3% 0;
+}
+
+.p-score {
+    font-size: 3rem;
+    display: inline;
+    padding: 0 3%;
+}
+
+.p-red-box {
+    font-size: 0.9rem;
+    background-color: red;
+    border-radius: 0.2rem;
+    width: 20%;
+    position: absolute;
+    padding: 3% 0;
+}
+
+.p-red-box:first-child {
+    top: 36%; /* ist noch nicht ganz mittig */
+    left: -10%;
+}
+
+.p-red-box:last-child {
+    top: 36%; /* ist noch nicht ganz mittig */
+    left: 90%;
+}
+
+
+
+
+/*written result*/
+h2 {
+    font-size: 1.9rem;
+    font-weight: lighter;
+    margin: 5% 0;
+}
+
+
+
+
+
+/*symbols rock, paper & scissor*/
+.div-move {
+    margin: 5% 0;
+    display: inline-block;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.div-move div {
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 3rem;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin: 0 3%;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    max-width: 70%;
+    max-height: 70%;
+}
+
+
+
+.p-slogan {
+    font-weight: bolder;
+    margin: 3% 0;
+    letter-spacing: 0.6rem;
+}
+
+
+
+
+/*start- and restart-button*/
+a {
+    color: orange;
+    margin-bottom: 3%;
+}
+
+a:hover, a:active {
+    color: rgb(154, 101, 2);
+}
+
+.a-start {
+    text-decoration: none;
+    background-color: orange;
+    color: black;
+    padding: 3% 8%;
+    border-radius: 0.2rem;
+}
+
+
+
+
+  
+
+

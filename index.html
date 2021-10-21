@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper & Scissors</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+</head>
+<body>
+
+    <header>
+        <h1>Rock Paper Scissors</h1>
+    </header>
+
+    <div class="container">
+        <main>
+
+            <div class="div-rounds">
+                <p>how many rounds?</p>
+                <form id="roundSelector">
+                    <div>
+                        <input type="radio" name="radiogroup" id="input-5">
+                        <label id="label-5">5</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="radiogroup" id="input-10">
+                        <label id="label-10">10</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="radiogroup" id="input-15">
+                        <label id="label-15">15</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="radiogroup" id="input-20">
+                        <label id="label-20">20</label>
+                    </div>
+                </form>
+                <div id="roundCounter"></div>
+                <!-- <div id="a-start">start</div> -->
+                <a href="#" class="a-start" id="b-start">start</a>
+            </div>
+
+            <div class="div-players">
+                <p class="p-red-box">USER</p>
+                <div class="div-score">
+                    <p class="p-score" id="score-user">0</p>
+                    <p class="p-score">:</p>
+                    <p class="p-score" id="score-comp">0</p>
+                </div>
+                <p class="p-red-box">COMP</p>
+            </div>
+
+            <h2>Let's play</h2>
+
+            <div class="div-move">
+                <div id="div-rock">
+                    <img src="assets/img/rock.png" alt="rock">
+                </div>
+                <div id="div-paper">
+                    <img src="assets/img/paper.png" alt="paper">
+                </div>
+                <div id="div-scissor">
+                    <img src="assets/img/scissor.png" alt="scissor">
+                </div>
+            </div>
+
+            <p class="p-slogan">MAKE YOUR MOVE.</p>
+
+            <a href="#" class="a-restart">restart</a>
+        
+        </main>
+    </div>
+
+
+    <script src="assets/js/script.js"></script>
+
+
+</body>
+</html>
